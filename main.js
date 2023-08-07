@@ -3,6 +3,7 @@ function playAudio() {
   var speakerSlash = document.getElementsByClassName("ph-speaker-slash")[0];
   var speakerHigh = document.getElementsByClassName("ph-speaker-high")[0];
 
+
   if (!audio.paused && !audio.ended) {
     audio.pause();
     speakerSlash.style.display = "block";
@@ -13,6 +14,7 @@ function playAudio() {
     speakerHigh.style.display = "block";
   }
 }
+
 
 var modalContainer = document.getElementById("modalContainer");
 var openModalBtn = document.getElementById("openModalBtn");
